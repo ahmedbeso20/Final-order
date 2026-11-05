@@ -1,0 +1,6 @@
+{
+  "name": "OrderFlow — إدارة متاجر أمازون ونون وجوميا",
+  "description": "OrderFlow: لوحة تحكم موحّدة لإدارة متاجرك على أمازون مصر ونون وجوميا بالجنيه المصري — مخزون موحّد، أرباح حقيقية، تحصيلات COD وفواتير وذكاء اصطناعي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

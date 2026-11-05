@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #F3F5FB;
+  --bg-elev: #FFFFFF;
+  --bg-sub: #E8EEF7;
+  --pr: #0C5CA4;
+  --pr-hover: #094A86;
+  --pr-soft: #DCEFFC;
+  --ac: #1CB4D0;
+  --ac-hover: #159AB3;
+  --ac-tx: #062235;
+  --tx: #082038;
+  --tx-sec: #2B445E;
+  --mu: #5C7089;
+  --bd: #DCE5F2;
+  --bd-strong: #C1D0E4;
+  --ok: #087F72;
+  --ok-soft: #E0F9F5;
+  --wn: #B45309;
+  --wn-soft: #FEF3C7;
+  --er: #BE123C;
+  --er-soft: #FFE4E6;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--tx);
+}
+
+.hero {
+  background: linear-gradient(160deg, #071E38 0%, #092646 58%, #0C3156 100%);
+}
+
+dialog.dlg-wide .dlg-head {
+  background: linear-gradient(135deg, #071E38 0%, #0C5CA4 100%);
+}

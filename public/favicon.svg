@@ -1,0 +1,53 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="of-box-top" x1="18" y1="58" x2="88" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6CD8EC"/>
+      <stop offset="50%" stop-color="#1CB4D0"/>
+      <stop offset="100%" stop-color="#0C5CA4"/>
+    </linearGradient>
+    <linearGradient id="of-arrow-main" x1="8" y1="108" x2="114" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0C5CA4"/>
+      <stop offset="50%" stop-color="#1CB4D0"/>
+      <stop offset="100%" stop-color="#6CD8EC"/>
+    </linearGradient>
+    <linearGradient id="of-arrow-depth" x1="12" y1="112" x2="112" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#073B6B"/>
+      <stop offset="55%" stop-color="#094A86"/>
+      <stop offset="100%" stop-color="#0C5CA4"/>
+    </linearGradient>
+    <linearGradient id="of-chart-sub" x1="36" y1="112" x2="104" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#094A86"/>
+      <stop offset="55%" stop-color="#0C5CA4"/>
+      <stop offset="100%" stop-color="#1CB4D0"/>
+    </linearGradient>
+    <linearGradient id="of-circuit" x1="20" y1="98" x2="106" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D4F6FA"/>
+      <stop offset="55%" stop-color="#ECFAFD"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M56 14L90 34L84 38L56 21.5L46 27.5L74 44L68 48L40 31.5L30 37.5L58 54L74 44.5L79 48.5L58 61.5L18 38L56 14Z" fill="url(#of-box-top)"/>
+  <path d="M18 38L25 42V73L18 80V38Z" fill="url(#of-box-top)"/>
+  <path d="M54.5 59.5L61.5 59.5V72L58 75.5L54.5 72V59.5Z" fill="url(#of-arrow-depth)"/>
+
+  <path d="M35 95L41 89L56 99V95L60 95V99L89 80V59L96 52V84L58 109L35 95Z" fill="url(#of-chart-sub)"/>
+  <path d="M62 88V93L66 90.5V84L62 88ZM69 81V88.5L73 86V76.5L69 81ZM76 76V84L80 81.5V72L76 76ZM83 68V79.5L87 77V64L83 68Z" fill="url(#of-box-top)"/>
+
+  <path d="M58 93L75 73L79 77L89 64L94 66L103 52" stroke="#1CB4D0" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M97 51L105 49L104 57Z" fill="#6CD8EC"/>
+  <circle cx="89" cy="64" r="3.4" fill="#6CD8EC"/>
+  <circle cx="94" cy="66" r="3.2" fill="#1CB4D0"/>
+
+  <path d="M8 106L42 64L58 79L92 38L84 33L115 21L109 53L101 47L58 95L42 80L21 106H8Z" fill="url(#of-arrow-depth)" transform="translate(2, 3.5)"/>
+  <path d="M8 106L42 64L58 79L92 38L84 33L115 21L109 53L101 47L58 95L42 80L21 106H8Z" fill="url(#of-arrow-main)"/>
+
+  <path d="M68 74V64M75 66V54M82 58V46M89 50V39" stroke="#ECFAFD" stroke-width="2.4" stroke-linecap="round" opacity="0.45"/>
+  <path d="M18 101L42 72L58 87L103 33" stroke="url(#of-circuit)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="29" cy="88" r="3.3" fill="#D4F6FA"/>
+  <circle cx="42" cy="72" r="4.2" fill="#FFFFFF"/>
+  <circle cx="58" cy="87" r="4" fill="#D4F6FA"/>
+  <circle cx="78" cy="63" r="3.2" fill="#FFFFFF"/>
+  <circle cx="106" cy="37" r="2.8" fill="#FFFFFF"/>
+  <path d="M106 37V45" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+</svg>
